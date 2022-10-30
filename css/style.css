@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    font-family:'DM Sans',sans-serif;
+    background: #191919;
+}
+#header{
+    padding: 20px 0;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header-nav a{
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin: 0 20px;
+    transition: 2s;
+}
+.header-nav a:hover{
+    color: #118DA8;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around  ;
+    text-wrap: wrap;
+
+
+}
+.hero-title{
+    margin-left: 80px;
+}
+.hero-title h1{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+.hero-title h3{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.hero-title h1 span{
+    font-weight: 900;
+}
+.hero-title img{
+    margin: 0 10px;
+}
+.blocks-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blocks-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.blocks-title button{
+    width: 178px;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.block{
+    width: 1300px;
+    height: 548px;
+    background: #000;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.block-title h4{
+    width: 41px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block-title h3{
+    font-weight: 400;
+    font-size: 17px;
+    color: #118DA8;
+    padding: 30px 0 ;
+
+}
+.block-title h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+}
+.block-title p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0;
+}
+.block-title button{
+    width: 178px;
+    height: 51px;
+    background: #118DA8;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
